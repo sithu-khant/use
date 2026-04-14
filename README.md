@@ -40,7 +40,7 @@ All of my configs, dotfiles, and things I use.
 - [Hammerspoon](https://hammerspoon.org) - MacOS automation tool
   - Settings - [.hammerspoon/init.lua](./.hammerspoon/init.lua)
 - [Karabiner-Elements](https://karabiner-elements.pqrs.org/) - Keyboard customizer
-  - Settings - [./karabiner-elements](./karabiner-elements/settings.json)
+  - caps2esc - [./karabiner-elements](./karabiner-elements/caps2esc.json)
 - [Flow](https://apps.apple.com/us/app/flow-focus-pomodoro-timer/id1423210932) - Pomodoro timer
 - [Elmedia Video Player](https://apps.apple.com/mm/app/elmedia-video-player/id1044549675?mt=12) - Video player
 - [Wipr 2](https://apps.apple.com/mm/app/wipr-2/id1662217862) - AdBlocker for Safari
@@ -61,4 +61,4 @@ All of my configs, dotfiles, and things I use.
 **Credits**
 
 - [antfu/use](https://github.com/antfu/use) - This repository is truly inspired by [Anthony Fu](https://antfu.me)'s style.
-- [dreamofcode-io/escapecontrol](https://github.com/dreamsofcode-io/escapecontrol/blob/main/macos/karabiner/caps2esc.json) - Caps lock key remapping configuration is from [Dream of Code](https://www.youtube.com/watch?v=XuQVbZ0wENE).
+- [dreamofcode-io/escapecontrol](https://github.com/dreamsofcode-io/escapecontrol/blob/main/macos/karabiner/caps2esc.json) - Caps lock key remapping configuration is from [Dream of Code](https://www.youtube.com/watch?v=XuQVbZ0wENE)'s YouTube channel.
