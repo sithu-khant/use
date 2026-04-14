@@ -12,8 +12,15 @@ import svelteParser from 'svelte-eslint-parser';
 import tseslint from 'typescript-eslint';
 
 export const config = defineConfig(
-  js.configs.recommended,
-  ...tseslint.configs.recommended,
+  {
+    ...js.configs.recommended,
+    files: ['**/*.js', '**/*.mjs']
+  },
+
+  ...tseslint.configs.recommended.map((config) => ({
+    ...config,
+    files: ['**/*.{ts}']
+  })),
 
   {
     ignores: ['**/.svelte-doctor', '**/.svelte-kit', '**/.wrangler', '**/worker-configuration.d.ts']
