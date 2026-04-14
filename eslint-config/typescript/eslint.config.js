@@ -1,4 +1,4 @@
-// pnpm add -D eslint @eslint/json @eslint/markdown @stylistic/eslint-plugin eslint-plugin-simple-import-sort globals typescript-eslint
+// pnpm add -D eslint @eslint/js @eslint/json @eslint/markdown @stylistic/eslint-plugin eslint-plugin-simple-import-sort globals typescript-eslint
 
 import js from '@eslint/js';
 import json from '@eslint/json';
