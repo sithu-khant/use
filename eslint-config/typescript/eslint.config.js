@@ -10,8 +10,15 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 export const config = defineConfig(
-  js.configs.recommended,
-  ...tseslint.configs.recommended,
+  {
+    ...js.configs.recommended,
+    files: ['**/*.js', '**/*.mjs']
+  },
+
+  ...tseslint.configs.recommended.map((config) => ({
+    ...config,
+    files: ['**/*.{ts}']
+  })),
 
   {
     ignores: ['**/.wrangler', '**/worker-configuration.d.ts']
