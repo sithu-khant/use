@@ -1,0 +1,25 @@
+{
+  "prettier.enable": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml",
+    "xml",
+    "svelte",
+    "css"
+  ]
+}
