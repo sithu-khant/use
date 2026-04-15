@@ -1,0 +1,35 @@
+{
+  "chat.agent.enabled": false,
+  "chat.extensionTools.enabled": false,
+  "chat.tools.autoExpandFailures": false,
+  "chat.autopilot.enabled": false,
+  "chat.plugins.enabled": false,
+  "window.commandCenter": false,
+  "workbench.startupEditor": "none",
+  "workbench.layoutControl.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.settings.editor": "json",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "svelte.enable-ts-plugin": true,
+  "files.associations": {
+    "*.css": "tailwindcss",
+  },
+  "workbench.activityBar.location": "hidden",
+  "explorer.compactFolders": false,
+  "json.schemaDownload.trustedDomains": {
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://json-schema.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://raw.githubusercontent.com/": true,
+    "https://schemastore.azurewebsites.net/": true,
+    "https://turborepo.dev/schema.json": true,
+    "https://www.schemastore.org/": true
+  },
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontFamily": "Input Mono",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderWhitespace": "all"
+}
