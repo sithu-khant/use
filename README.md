@@ -6,11 +6,11 @@ All of my configs, dotfiles, and things I use.
 
 - Editor: [VSCodium](https://vscodium.com)
 - Settings:
-  - Global - [./vscode-settings/global](./vscode-settings/global/.vscode/settings.json)
-  - Project - [./vscode-settings/project](./vscode-settings/project/.vscode/settings.json)
+  - Global - [./vscode-settings/global-settings.json](./vscode-settings/global-settings.json)
+  - Project - [./vscode-settings/project-setting.json](./vscode-settings/project-settings.json)
 - Fonts: [Input Mono](https://input.djr.com/)
 - Theme: [GitHub Theme](https://open-vsx.org/vscode/item?itemName=GitHub.github-vscode-theme)
-- Icons Theme: [vscode-icons](https://open-vsx.org/vscode/item?itemName=vscode-icons-team.vscode-icons)
+- File Icon Theme: [vscode-icons](https://open-vsx.org/vscode/item?itemName=vscode-icons-team.vscode-icons)
 - Extensions:
   - [streetsidesoftware.code-spell-checker](https://open-vsx.org/vscode/item?itemName=streetsidesoftware.code-spell-checker)
   - [usernamehw.errorlens](https://open-vsx.org/vscode/item?itemName=usernamehw.errorlens)
@@ -18,8 +18,7 @@ All of my configs, dotfiles, and things I use.
   - [bradlc.vscode-tailwindcss](https://open-vsx.org/vscode/item?itemName=bradlc.vscode-tailwindcss)
   - [vscodevim.vim](https://open-vsx.org/vscode/item?itemName=vscodevim.vim)
 - Linting & Formatting: [ESLint](https://open-vsx.org/vscode/item?itemName=dbaeumer.vscode-eslint)
-  - TypeScript - [./eslint-config/typescript](./eslint-config/typescript/eslint.config.js)
-  - SvelteKit -  [./eslint-config/sveltekit](./eslint-config/sveltekit/eslint.config.js)
+  - Config - [./eslint-config/eslint.config.js](./eslint-config/eslint.config.js)
 
 ## Browser
 
@@ -38,7 +37,7 @@ All of my configs, dotfiles, and things I use.
 - [Telegram](https://apps.apple.com/us/app/telegram-messenger/id686449807) - Messaging
 - [ExpressVPN](https://apps.apple.com/us/app/expressvpn-secure-fast-vpn/id886492891) - VPN
 - [Hammerspoon](https://hammerspoon.org) - MacOS automation tool
-  - Settings - [.hammerspoon/init.lua](./.hammerspoon/init.lua)
+  - Settings - [./.hammerspoon/init.lua](./.hammerspoon/init.lua)
 - [Karabiner-Elements](https://karabiner-elements.pqrs.org/) - Keyboard customizer
   - caps2esc - [./karabiner-elements](./karabiner-elements/caps2esc.json)
 - [Flow](https://apps.apple.com/us/app/flow-focus-pomodoro-timer/id1423210932) - Pomodoro timer
