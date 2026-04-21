@@ -30,11 +30,13 @@ All of my configs, dotfiles, and things I use.
   - [Grammarly](https://chromewebstore.google.com/detail/grammarly-ai-writing-assi/kbfnbcaeplbcioakkpcpgfkobkghlhen) - Spell check
   - [Refined GitHub](https://chromewebstore.google.com/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf) - Refining and enhancing GitHub
   - [FireShot](https://chromewebstore.google.com/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg) - Browser window screenshot tool
+  - [JSON Alexander](https://chromewebstore.google.com/detail/json-alexander/aegihabihhhoihnomlekgheekcdcifpk) - A really good JSON viewer
 
 ## MacOS Apps
 
 - [Zoom](https://zoom.com) - Meetings
 - [Telegram](https://apps.apple.com/us/app/telegram-messenger/id686449807) - Messaging
+- [Viber](https://viber.com) - Messaging
 - [ExpressVPN](https://apps.apple.com/us/app/expressvpn-secure-fast-vpn/id886492891) - VPN
 - [Hammerspoon](https://hammerspoon.org) - MacOS automation tool
   - Settings - [./.hammerspoon/init.lua](./.hammerspoon/init.lua)
@@ -54,6 +56,10 @@ All of my configs, dotfiles, and things I use.
 - [nodejs](https://nodejs.org) - JavaScript runtime
 - [pnpm](https://pnpm.io) - Package manager
 - [Turborepo](https://turborepo.dev/) - Faster monorepo codebase
+
+## Starter Templates
+
+- [sveltesse-turbo](https://github.com/sithu-khant/sveltesse-turbo) - My go-to template for SvelteKit + Hono + Turborepo.
 
 ---
 
