@@ -59,7 +59,8 @@ All of my configs, dotfiles, and things I use.
 
 ## Starter Templates
 
-- [sveltesse-turbo](https://github.com/sithu-khant/sveltesse-turbo) - My go-to template for SvelteKit + Hono + Turborepo.
+- [sveltesse](https://github.com/sithu-khant/sveltesse) - My go-to template for SvelteKit projects.
+- [sveltesse-turbo](https://github.com/sithu-khant/sveltesse-turbo) - sveltesse + Hono + Turborepo.
 
 ---
 
