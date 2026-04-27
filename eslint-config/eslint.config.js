@@ -1,6 +1,6 @@
 // pnpm add -D eslint @eslint/js @eslint/markdown @stylistic/eslint-plugin eslint-plugin-jsonc eslint-plugin-simple-import-sort globals typescript-eslint
 // For SvelteKit projects
-// pnpm add -D eslint-plugin-svelte svelte-eslint-parser typescript-eslint
+// pnpm add -D eslint-plugin-svelte svelte-eslint-parser
 
 import js from '@eslint/js';
 import markdown from '@eslint/markdown';
@@ -10,13 +10,12 @@ import eslintPluginJsonc from 'eslint-plugin-jsonc';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
+
 // For Svelte
-import { config } from '@repo/eslint-config';
 import svelte from 'eslint-plugin-svelte';
 import svelteParser from 'svelte-eslint-parser';
-import tseslint from 'typescript-eslint';
 
-export const config = defineConfig(
+export default defineConfig(
   {
     ...js.configs.recommended,
     files: ['**/*.js', '**/*.mjs']
@@ -25,11 +24,11 @@ export const config = defineConfig(
   ...tseslint.configs.recommended,
 
   {
-    ignores: ['**/.turbo', '**/.svelte-doctor', '**/.svelte-kit', '**/.wrangler', '**/worker-configuration.d.ts']
+    ignores: ['**/.svelte-doctor', '**/.svelte-kit', '**/.wrangler', '**/worker-configuration.d.ts']
   },
 
-  // Start --- For Svelte
-    {
+  // --- For Svelte ---
+  {
     files: ['**/*.svelte'],
     languageOptions: {
       parser: svelteParser,
@@ -48,8 +47,8 @@ export const config = defineConfig(
         {
           prefer: 'single',
           dynamic: {
-            quoted: true,
-            avoidInvalidUnquotedInHTML: true
+            quoted: false,
+            avoidInvalidUnquotedInHTML: false
           }
         }
       ],
@@ -71,7 +70,7 @@ export const config = defineConfig(
       ]
     }
   },
-  // End --- For Svelte
+  // --- For Svelte ---
 
   {
     plugins: {
